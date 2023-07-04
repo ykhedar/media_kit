@@ -26,7 +26,9 @@ dependencies:
   universal_platform: ^1.0.0+1
   plugin_platform_interface: ^2.0.2
   # NOTE: Bump before publishing to pub.dev
-  media_kit: ^1.0.2
+  # media_kit: ^1.0.2
+  media_kit:
+    path: ../media_kit
 
 dev_dependencies:
   flutter_lints: ^2.0.0
